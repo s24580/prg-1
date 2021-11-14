@@ -5,7 +5,7 @@
  int main () {
  	 
  	int i, n, j;
- 	std::cout << "wysokosc trojkata:";
+ 	//std::cout << "wysokosc trojkata:";
  	std::cin >> n;
  	
  	for (i=1 ; i<=n ; i++)
