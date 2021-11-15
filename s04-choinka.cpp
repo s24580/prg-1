@@ -4,7 +4,7 @@
  
  auto main (int argc, char*argv[]) -> int 
 {
- 	 auto const n = std::stoi(argv[1]);
+ 	 auto n = std::stoi(argv[1]);
  	int i, j;
  	//std::cout << "wysokosc trojkata:";
  	//std::cin >> n;
