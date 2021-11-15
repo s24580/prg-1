@@ -4,12 +4,13 @@ Wynik wydrukuj na std::cout. Zapisz program jako s04-siodemkowy.cpp*/
 #include <iostream>
 #include <vector>
 
-auto main ()-> int {
- int x,y,z,i;
+auto main (int argc,char*argv[])-> int {
+	auto const x = std::stoi(argv [1]);
+	int y,z,i;
  std::vector <int> tab ;
 
-	std::cout << "podaj lizczbe: ";
-	std::cin >> x;
+	//std::cout << "podaj lizczbe: ";
+	//std::cin >> x;
 	
 	 
 	while (x > 0) 
