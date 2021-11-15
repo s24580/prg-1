@@ -5,7 +5,7 @@ Wynik wydrukuj na std::cout. Zapisz program jako s04-siodemkowy.cpp*/
 #include <vector>
 
 auto main (int argc,char*argv[])-> int {
-	auto const x = std::stoi(argv [1]);
+	int x = std::stoi(argv [1]);
 	int y,z,i;
  std::vector <int> tab ;
 
