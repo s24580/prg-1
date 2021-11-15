@@ -2,11 +2,12 @@
 #include <string>
 
  
- int main () {
- 	 
- 	int i, n, j;
+ auto main (int argc, char*argv[]) -> int 
+{
+ 	 auto const n = std::stoi(argv[1])
+ 	int i, j;
  	//std::cout << "wysokosc trojkata:";
- 	std::cin >> n;
+ 	//std::cin >> n;
  	
  	for (i=1 ; i<=n ; i++)
  	{
