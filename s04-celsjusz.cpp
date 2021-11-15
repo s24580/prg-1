@@ -1,29 +1,30 @@
 #include <iostream>
 #include <string>
 
-class Celsius {
-public:	
-	int temp;
+struct Celsius {
+	
+	float temp;
 	
 	std::string C ;
 	auto to_string() const -> std::string;
 };
 
 
-auto main () -> int
+auto main (int argc, char*argv[]) -> int
 {
-	Celsius temperatur;
-	std::cin >> temperatur;
-	Celsius_temperatur.string C = "°C";
-	std::cout << "Put temp";
-	std::cin >> temperatur.C;
-if (temp <= -273.15)
+	
+	auto const x = std::stof(argv[1]); 
+	Celsius t;
+	t.temp = x;
+	t.C = "°C";
+	
+	if (x <= -273.15)
 	{ 
-		std::cout << "-273.15" << Celsius_temperatur.C << "\n";
+		std::cout << "-273.15" << t.C << "\n";
 	}
 	else
 	{
-		std::cout << Celsius.temperatur << Celsius_temperatur.C <<"\n";
+		std::cout  << t.temp << t.C <<"\n";
 	}
 	
 return 0;
