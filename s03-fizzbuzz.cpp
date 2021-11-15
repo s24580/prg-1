@@ -1,12 +1,10 @@
 #include <iostream>
 
 
-int main()
+auto main(int argc, char*argv[]) -> int
 {
-    int n;
-    
-    std::cout << "podaj liczbe: ";    
-    std::cin >> n;
+    int n std::stoi(argv[1])
+   
     for (int x = 1 ; x <= n ; x++)
     {
         std::cout << x << " ";
